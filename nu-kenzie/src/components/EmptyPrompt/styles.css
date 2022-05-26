@@ -1,0 +1,33 @@
+.emptyCard {
+  width: 90%;
+  height: 11vh;
+  margin-bottom: 5%;
+  border-radius: 4px;
+  background: rgb(217, 224, 231);
+  background: linear-gradient(
+    90deg,
+    rgba(217, 224, 231, 1) 0%,
+    rgba(248, 249, 250, 1) 0.992%,
+    rgba(248, 249, 250, 1) 100%
+  );
+}
+
+.spaceFiller {
+  font-size: 0.1%;
+  height: 1px;
+}
+
+.longerRectangle {
+  background: #e9ecef;
+  font-size: 60%;
+  width: 65%;
+  margin-left: 3%;
+  margin-bottom: 2%;
+}
+
+.smallerRectangle {
+  background: #e9ecef;
+  font-size: 60%;
+  width: 20%;
+  margin-left: 3%;
+}

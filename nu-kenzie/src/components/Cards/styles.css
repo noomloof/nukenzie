@@ -1,0 +1,104 @@
+.cardItself {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 4px;
+  margin-bottom: 5%;
+}
+
+.cardEntrada {
+  background: rgb(3, 184, 152);
+  background: linear-gradient(
+    90deg,
+    rgba(3, 184, 152, 1) 0%,
+    rgba(248, 249, 250, 1) 0.992%,
+    rgba(248, 249, 250, 1) 100%
+  );
+  transition: 0.5s;
+}
+
+.cardEntrada:hover {
+  background: rgb(3, 184, 152);
+  background: linear-gradient(
+    90deg,
+    rgba(3, 184, 152, 1) 0%,
+    rgba(255, 255, 255, 1) 0.992%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  box-shadow: 4px 4px 32px -12px rgba(0, 0, 0, 0.25);
+  transition: 0.5s;
+}
+
+.cardDespesa {
+  background: rgb(217, 224, 231);
+  background: linear-gradient(
+    90deg,
+    rgba(217, 224, 231, 1) 0%,
+    rgba(248, 249, 250, 1) 0.992%,
+    rgba(248, 249, 250, 1) 100%
+  );
+  transition: 0.5s;
+}
+
+.cardDespesa:hover {
+  background: rgb(217, 224, 231);
+  background: linear-gradient(
+    90deg,
+    rgba(217, 224, 231, 1) 0%,
+    rgba(255, 255, 255, 1) 0.992%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  box-shadow: 4px 4px 32px -12px rgba(0, 0, 0, 0.25);
+  transition: 0.5s;
+}
+
+.nameType {
+  width: 49%;
+  padding-left: 4%;
+}
+
+.name {
+  margin-top: 3%;
+  font-size: 1.4vw;
+  font-weight: bold;
+}
+
+.valueDelete {
+  padding-top: 2%;
+  display: flex;
+  justify-content: space-around;
+  width: 49%;
+  height: 4vh;
+}
+
+.value {
+  height: 3.4vh;
+}
+
+.delete {
+  background: #e9ecef;
+  border-radius: 2.46154px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  display: flex;
+  width: 8%;
+  transition: 0.3s;
+  justify-content: center;
+  cursor: pointer;
+  height: 4vh;
+}
+
+.delete img {
+  -webkit-filter: invert(70%);
+  max-width: 12px;
+  transition: 0.3s;
+  height: 4vh;
+}
+
+.delete:hover {
+  background: #5b6166;
+  transition: 0.3s;
+}
+
+.delete:hover img {
+  -webkit-filter: invert(0);
+  transition: 0.3s;
+}

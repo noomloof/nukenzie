@@ -1,0 +1,23 @@
+.moneyContainer {
+  /* display: hidden; */
+  background: #ffffff;
+  border: 1px solid #e9ecef;
+  border-radius: 4px;
+  width: 48%;
+  height: 12%;
+  margin-left: 26%;
+  margin-top: 1.4%;
+  font-weight: bold;
+}
+
+.textPart {
+  padding-top: 3.5%;
+  padding-left: 4.5%;
+  padding-right: 4.5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.money {
+  color: #fd377e;
+}

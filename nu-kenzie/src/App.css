@@ -1,0 +1,130 @@
+.App {
+  width: 100%;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 10%;
+  background: #f8f9fa;
+  box-shadow: 0px 4px 32px -12px rgba(0, 0, 0, 0.25);
+}
+
+.logo {
+  padding-left: 13%;
+}
+
+.homeButton {
+  margin-right: 11%;
+  background: #e9ecef;
+  border: 1.4px solid #e9ecef;
+  border-radius: 8px;
+  color: #5b6166;
+  width: 4%;
+  padding: 0.5% 0.2% 0.5% 0.2%;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.homeButton:hover {
+  background: #5b6166;
+  color: #f8f9fa;
+  transition: 0.3s;
+}
+
+main {
+  height: 90%;
+  display: flex;
+}
+
+.valueSetterDisplayer {
+  width: 49%;
+  height: 100%;
+}
+
+.transactionsDisplayer {
+  position: relative;
+  right: 3%;
+  width: 45%;
+  margin-top: 2.5%;
+}
+
+.titleTagContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.titulo {
+  padding-left: 6.5%;
+  padding-top: 3%;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  font-size: 1.2vw;
+  color: #212529;
+}
+
+.tags {
+  display: flex;
+  width: 45%;
+  justify-content: space-between;
+}
+
+.tagIndiv {
+  background: #e9ecef;
+  border: 1.4px solid #e9ecef;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 4% 6%;
+}
+
+.tagIndiv:hover {
+  background: #5b6166;
+  color: #f8f9fa;
+  transition: 0.3s;
+}
+
+.tagIndiv:focus {
+  background: #fd377e;
+  color: #f8f9fa;
+  transition: 0.3s;
+}
+
+.tagIndiv:hover:active {
+  background: #fd377e;
+  color: #f8f9fa;
+  transition: 0.3s;
+}
+
+.active {
+  background: #fd377e;
+  color: #f8f9fa;
+  transition: 0.3s;
+}
+
+.emptyContainer {
+  height: 30%;
+}
+
+.messagePrompt {
+  padding-left: 0.5%;
+  margin-bottom: 4%;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  color: #5b6166;
+  font-size: 1.2vw;
+}
+
+.cardsContainer {
+  margin-top: 5%;
+  height: 76.5%;
+  overflow-y: auto;
+}
+
+ul {
+  list-style: none;
+}

@@ -1,0 +1,104 @@
+.formContainer {
+  background: #ffffff;
+  border: 1px solid #e9ecef;
+  border-radius: 4px;
+  width: 48%;
+  height: 51%;
+  margin-left: 26%;
+  margin-top: 5%;
+}
+
+input,
+select {
+  background: #f8f9fa;
+  border: 2px solid #f8f9fa;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+}
+
+.descContainer {
+  padding: 6% 5% 0 5%;
+  margin-bottom: 4%;
+}
+
+.descInput {
+  padding-left: 4%;
+  width: 95%;
+  height: 6vh;
+}
+
+.descExample {
+  color: #868e96;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.valueContainer {
+  display: flex;
+  margin-bottom: 5%;
+}
+
+.forcePad {
+  padding-left: 10%;
+}
+
+.forceSpacing {
+  margin-top: 5%;
+}
+
+.valueDetails,
+.valueType {
+  width: 49%;
+}
+
+.valueDetails {
+}
+
+.valueInput {
+  width: 65%;
+  height: 6vh;
+  padding-left: 5%;
+}
+
+.valueType {
+}
+
+.typeValueInput {
+  width: 90%;
+  height: 7vh;
+  color: #5b6166;
+}
+
+.symbolsInput {
+  position: relative;
+  left: 60%;
+  color: #5b6166;
+}
+
+.infoSend {
+  background: #fd377e;
+  border: 2px solid #fd377e;
+  border-radius: 8px;
+  width: 88%;
+  height: 16%;
+  margin-left: 5%;
+  color: #ffffff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.infoSend:hover {
+  filter: brightness(0.9);
+  transition: 0.5s;
+}
+
+input:hover,
+select:focus {
+  border: 2px solid black;
+  transition: 0.7s;
+}
